@@ -17,6 +17,7 @@
             "group": "Getting started",
             "pages": [
               "index",
+              "csp/user-settings",
               {
                 "group": "Mentor sessions",
                 "pages": [
@@ -24,7 +25,6 @@
                   "csp/discord-reschedule-mentor-session"
                 ]
               },
-              "csp/user-settings",
               "csp/discord-ta-booking"
             ]
           }
