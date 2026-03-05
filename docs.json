@@ -17,10 +17,15 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "csp/mentor-sessions",
+              {
+                "group": "Mentor sessions",
+                "pages": [
+                  "csp/mentor-sessions",
+                  "csp/discord-reschedule-mentor-session"
+                ]
+              },
               "csp/user-settings",
-              "csp/discord-ta-booking",
-              "csp/discord-reschedule-mentor-session"
+              "csp/discord-ta-booking"
             ]
           }
         ]
