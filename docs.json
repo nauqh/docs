@@ -20,7 +20,7 @@
               "vi/index",
               "vi/csp/user-settings",
               {
-                "group": "Buổi mentor",
+                "group": "Mentor sessions",
                 "pages": [
                   "vi/csp/mentor-sessions",
                   "vi/csp/discord-reschedule-mentor-session",
@@ -31,7 +31,7 @@
             ]
           },
           {
-            "group": "Bài thi",
+            "group": "Exam",
             "pages": [
               "vi/exam/exam-instruction"
             ]
