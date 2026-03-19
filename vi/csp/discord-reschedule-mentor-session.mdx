@@ -1,0 +1,119 @@
+---
+title: "Dời lịch buổi mentor"
+description: "Dùng bot Discord của CoderSchool để gửi và phản hồi yêu cầu dời lịch buổi mentor"
+mode: "center"
+---
+
+Bạn có thể dùng bot CoderSchool Platform trên Discord để dời lịch buổi mentor mà không cần rời Discord. Tài liệu này hướng dẫn cách gửi yêu cầu dời lịch và cách phản hồi khi nhận được yêu cầu.
+
+<Info>
+  Bạn phải có buổi mentor đã được lên lịch trên CoderSchool Platform trước khi có thể dời lịch qua Discord.
+</Info>
+
+## Phần A: Gửi yêu cầu dời lịch (Requester)
+
+Bạn là **Requester** khi bạn là người khởi tạo yêu cầu dời lịch.
+
+### Bước 1: Dùng lệnh /reschedule
+
+1. Mở bất kỳ kênh nào trong server Discord của CoderSchool.
+2. Trong ô chat, gõ lệnh `\reschedule`.
+3. Chọn lệnh **/reschedule** trong menu Discord và nhấn **Enter** để gửi.
+
+![Discord reschedule mentor session using the /reschedule command](/imgs/mentor-sessions/image15.png)
+
+### Bước 2: Kiểm tra DM với bot
+
+Sau khi chạy lệnh:
+
+- Bot CoderSchool Platform sẽ gửi tin nhắn trực tiếp (DM) cho bạn.
+- Nếu tài khoản của bạn liên kết nhiều mentor hoặc learner, bot có thể yêu cầu bạn chọn một người trước khi tiếp tục.
+
+![Discord reschedule mentor session checking your DM with the bot](/imgs/mentor-sessions/image16.png)
+
+Làm theo hướng dẫn trong DM để tiếp tục.
+
+### Bước 3: Chọn buổi mentor cần dời lịch
+
+Trong DM:
+
+1. Bot hiển thị danh sách các buổi mentor có thể dời lịch.
+2. Chọn buổi mentor bạn muốn thay đổi.
+
+![Discord reschedule mentor session choosing the mentor session to reschedule](/imgs/mentor-sessions/image17.png)
+
+3. Xác nhận lựa chọn khi bot yêu cầu.
+
+![Discord reschedule mentor session confirming your selection](/imgs/mentor-sessions/image18.png)
+
+### Bước 4: Cung cấp lý do
+
+Bot sẽ hỏi lý do bạn muốn dời lịch buổi học.
+
+- Hãy nhập lý do ngắn gọn nhưng rõ ràng (ví dụ: "Trùng lịch làm việc" hoặc "Cần thêm thời gian hoàn thành bài tập").
+- Gửi tin nhắn để bot đính kèm vào yêu cầu dời lịch.
+
+![Discord reschedule mentor session providing a reason](/imgs/mentor-sessions/image19.png)
+
+### Bước 5: Đề xuất thời gian mới
+
+Tiếp theo, đề xuất một khung giờ mới:
+
+1. Chọn ngày giờ nằm trong khoảng thời gian hợp lệ mà bot hiển thị.
+2. Đảm bảo thời gian mới:
+   - Không nằm trong quá khứ
+   - Tuân theo các ràng buộc bot đưa ra
+
+![Discord reschedule mentor session proposing a new time](/imgs/mentor-sessions/image20.png)
+
+3. Xác nhận khung giờ đề xuất khi được yêu cầu.
+
+![Discord reschedule mentor session confirming the proposed time slot](/imgs/mentor-sessions/image21.png)
+
+### Bước 6: Xác nhận yêu cầu dời lịch
+
+Bot sẽ tóm tắt yêu cầu dời lịch của bạn, gồm:
+
+- Buổi học ban đầu
+- Ngày giờ mới được đề xuất
+- Lý do dời lịch
+
+![Discord reschedule mentor session summarizing your reschedule request](/imgs/mentor-sessions/image22.png)
+
+Hãy kiểm tra lại và:
+
+1. Xác nhận nếu tất cả thông tin đều đúng.
+2. Hoặc thông báo cho bot nếu bạn cần chỉnh sửa, rồi làm theo hướng dẫn.
+
+Khi xác nhận xong, yêu cầu sẽ được gửi và quy trình kết thúc.
+
+![Discord reschedule mentor session confirming the reschedule request](/imgs/mentor-sessions/image23.png)
+
+## Phần B: Phản hồi yêu cầu dời lịch (Requestee)
+
+Bạn là **Requestee** khi người khác gửi yêu cầu dời lịch cho bạn (ví dụ mentor hoặc learner của bạn).
+
+Khi có yêu cầu:
+
+1. Mở Discord DMs từ bot CoderSchool Platform.
+2. Đọc chi tiết đề xuất: buổi học, giờ mới và lý do.
+3. Chọn phản hồi:
+   - **Accept** nếu bạn đồng ý thời gian mới.
+   - **Reject** nếu thời gian mới không phù hợp.
+
+![Discord reschedule mentor session responding to a reschedule request](/imgs/mentor-sessions/image24.png)
+
+Nếu từ chối, bạn có thể được yêu cầu cung cấp lý do ngắn để người gửi hiểu rõ.
+
+## Phần C: Kết quả và trạng thái cuối cùng
+
+Sau khi yêu cầu dời lịch được xử lý:
+
+- Kết quả cuối cùng sẽ hiển thị trong kênh mentorship của learner trên Discord.
+- Buổi mentor trên CoderSchool Platform sẽ được cập nhật nếu yêu cầu được chấp nhận.
+
+![Discord reschedule mentor session result and final status](/imgs/mentor-sessions/image25.png)
+
+<Tip>
+  Luôn xác nhận lại ngày giờ mới với mentor hoặc learner, và kiểm tra lại lịch buổi học trên CoderSchool Platform sau khi dời lịch xong.
+</Tip>
