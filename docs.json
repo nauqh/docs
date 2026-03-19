@@ -24,21 +24,21 @@
             "group": "Nền tảng CoderSchool",
             "pages": [
               "vi/csp/user-settings",
-              {
-                "group": "Mentor sessions",
-                "pages": [
-                  "vi/csp/mentor-sessions",
-                  "vi/csp/discord-reschedule-mentor-session",
-                  "vi/csp/final-project-process"
-                ]
-              },
-              "vi/csp/discord-ta-booking"
+              "vi/csp/mentor-sessions"
             ]
           },
           {
-            "group": "Exam",
+            "group": "LearnWorlds",
             "pages": [
+              "vi/csp/final-project-process",
               "vi/exam/exam-instruction"
+            ]
+          },
+          {
+            "group": "Discord",
+            "pages": [
+              "vi/csp/discord-reschedule-mentor-session",
+              "vi/csp/discord-ta-booking"
             ]
           }
         ]
@@ -56,21 +56,21 @@
             "group": "CoderSchool platform",
             "pages": [
               "en/csp/user-settings",
-              {
-                "group": "Mentor sessions",
-                "pages": [
-                  "en/csp/mentor-sessions",
-                  "en/csp/discord-reschedule-mentor-session",
-                  "en/csp/final-project-process"
-                ]
-              },
-              "en/csp/discord-ta-booking"
+              "en/csp/mentor-sessions"
             ]
           },
           {
-            "group": "Exam",
+            "group": "LearnWorlds",
             "pages": [
+              "en/csp/final-project-process",
               "en/exam/exam-instruction"
+            ]
+          },
+          {
+            "group": "Discord",
+            "pages": [
+              "en/csp/discord-reschedule-mentor-session",
+              "en/csp/discord-ta-booking"
             ]
           }
         ]
