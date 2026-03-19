@@ -23,6 +23,7 @@
           {
             "group": "CoderSchool Platform",
             "pages": [
+              "vi/csp/recommended-devices",
               "vi/csp/user-settings",
               "vi/csp/mentor-sessions"
             ]
@@ -55,6 +56,7 @@
           {
             "group": "CoderSchool platform",
             "pages": [
+              "en/csp/recommended-devices",
               "en/csp/user-settings",
               "en/csp/mentor-sessions"
             ]
