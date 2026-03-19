@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "almond",
   "name": "Coderschool",
   "colors": {
     "primary": "#D54541",
@@ -30,8 +30,8 @@
           {
             "group": "LearnWorlds",
             "pages": [
-              "vi/csp/final-project-process",
-              "vi/exam/exam-instruction"
+              "vi/exam/exam-instruction",
+              "vi/csp/final-project-process"
             ]
           },
           {
@@ -62,8 +62,8 @@
           {
             "group": "LearnWorlds",
             "pages": [
-              "en/csp/final-project-process",
-              "en/exam/exam-instruction"
+              "en/exam/exam-instruction",
+              "en/csp/final-project-process"
             ]
           },
           {
